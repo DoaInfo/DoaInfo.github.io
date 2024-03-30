@@ -1,0 +1,80 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formatação geral das páginas */
+body {
+
+    font-family: 'Roboto', sans-serif;
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* Definições do menu */
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-family: Andale Mono, monospace, DejaVu Sans Mono, monospace;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+    background-color: #ad0f0f;
+
+    z-index: 10;
+}
+
+.menu-lista {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.menu-lista li {
+    margin-left: 25px;
+    position: relative;
+}
+
+
+
+  /* footer da pag */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+    /* footer da pag */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }

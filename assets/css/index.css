@@ -1,0 +1,39 @@
+#fundo {
+    background: url(/assets/img/Fundo.png);
+    background-size: auto; /* Alterado para 50% de largura e altura automática */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.conteudo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: rgba(34, 34, 34, 0.212);
+    text-align: center;
+    z-index: 2;
+    width: 70%;
+    max-width: 800px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.conteudo h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 18px;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(43, 42, 42, 0.048);
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
