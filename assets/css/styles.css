@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Adicionando a fonte Roboto */
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    color: #333; /* Cor do texto principal */
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-heading{
+    padding-top: 90px;
+}
+
+header {
+    background-color: #e74c3c; /* Vermelho */
+    color: #fff; /* Branco */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; 
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 24px; /* Tamanho da fonte aumentado */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Branco */
+    font-size: 15px; /* Tamanho da fonte aumentado */
+    transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+
+nav ul li a:hover {
+    color: #000000; /* Amarelo ao passar o mouse */
+}
+
+main {
+    margin-left: 20px; /* Espaço para o sidebar */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e74c3c; /* Vermelho */
+}
+
+p {
+    margin-bottom: 20px; /* Espaçamento entre os parágrafos */
+    line-height: 1.5; /* Espaçamento entre as linhas dos parágrafos */
+}

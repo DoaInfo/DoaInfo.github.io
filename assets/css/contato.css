@@ -1,8 +1,6 @@
-h1{
-    background-color: #333;
-    padding-top: 90px;
+h2{
+    padding-top: 60px;
     padding-block-end: 10px;
-    color: white;
     text-align: center;
 }
 
@@ -10,20 +8,20 @@ p {
     margin: 20px;
     padding: 10px; 
     text-align: center;
-    font-size: 18px;
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    padding: 10px 0;
 }
-footer div {
-    display: inline-block;
+
+body {
+    margin-bottom: 10px; /* Ajuste a margem inferior do corpo para deixar espaço para o footer */
 }
 
 /*
