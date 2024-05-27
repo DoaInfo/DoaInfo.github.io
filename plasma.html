@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doação de Plasma</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>DOAINFO - Doação de Medula Óssea</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -15,136 +17,64 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+                        <div class="dropdown-content">
+                            <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+                            <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+                            <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+                            <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+                            <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+                    <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <main>
-        <section id="processo">
-            <h2 class="first-heading">Processo de Doação</h2>
-            <br>
-            <ul>
-                <li>Registro e triagem: Ao chegar ao local de doação, você será solicitado a preencher um formulário de
-                    registro e responder a perguntas sobre seu histórico médico e estilo de vida. Isso ajuda a garantir
-                    a segurança do plasma doado e a saúde do receptor.</li>
-                <br>
-                <li>Verificação de elegibilidade: Antes de prosseguir com a doação, você passará por uma triagem para
-                    determinar se atende aos critérios de elegibilidade. Isso pode incluir verificações de pressão
-                    arterial, pulso, peso e hemoglobina.</li>
-                <br>
-                <li>Coleta de plasma: Uma vez que você tenha sido aprovado na triagem, será direcionado para uma cadeira
-                    de doação. Um profissional de saúde limpará o braço e inserirá uma agulha em uma veia para extrair o
-                    sangue. O sangue passa por um processo chamado de aférese, onde o plasma é separado do restante das
-                    células sanguíneas.</li>
-                <br>
-                <li>Processamento e armazenamento: O plasma coletado é processado para remover impurezas e pode ser
-                    congelado para armazenamento futuro.</li>
-                <br>
-                <li>Finalização e recuperação: Após a doação, você receberá líquidos e lanches para ajudar na
-                    recuperação e evitar qualquer tontura ou fraqueza. É importante descansar e se hidratar após a
-                    doação.</li>
-            </ul>
-        </section>
-        <section id="requisitos">
-            <h2>Requisitos</h2>
-            <br>
-            <ul>
-                <li>Idade: Os potenciais doadores devem ter entre 18 e 65 anos.</li>
-                <br>
-                <li>Peso: Pesar no mínimo 60 kg na balança.</li>
-                <br>
-                <li>Boa saúde: Boa saúde geral, sem sintomas de doença infecciosa ou condições crônicas que possam
-                    afetar a segurança da doação.</li>
-                <br>
-                <li>Histórico médico: Você será solicitado a preencher um questionário sobre seu histórico médico,
-                    incluindo informações sobre doenças prévias, cirurgias, medicamentos que está tomando e
-                    comportamentos de risco.</li>
-                <br>
-                <li>Estilo de vida: Alguns comportamentos de risco, como uso de drogas intravenosas, múltiplos parceiros
-                    sexuais ou viagens recentes para áreas onde há alto risco de doenças infecciosas, podem
-                    desqualificá-lo temporariamente como doador.</li>
-                <br>
-                <li>Testes de triagem: Antes de cada doação, você passará por testes de triagem para verificar sua
-                    elegibilidade, incluindo verificações de pressão arterial, pulso, temperatura e níveis de
-                    hemoglobina.</li>
-            </ul>
-        </section>
-        <section id="finalidades">
-            <h2>Finalidades Médicas</h2>
-            <br>
-            <ul>
-                <li>Tratamento de queimaduras e lesões traumáticas: O plasma é rico em proteínas, incluindo fatores de
-                    coagulação, que podem ajudar a promover a cicatrização de feridas e prevenir infecções em pacientes
-                    com queimaduras graves ou lesões traumáticas.</li>
-                <br>
-                <li>Distúrbios de coagulação sanguínea: O plasma contém fatores de coagulação que são essenciais para o
-                    processo de coagulação sanguínea. Ele é frequentemente usado no tratamento de distúrbios de
-                    coagulação, como hemofilia e deficiência de fatores de coagulação.</li>
-                <br>
-                <li>Doenças autoimunes: O plasma pode ser usado no tratamento de doenças autoimunes, como o lúpus
-                    eritematoso sistêmico e a miastenia gravis, fornecendo anticorpos e outros componentes do sistema
-                    que podem ajudar a modular a resposta autoimune.</li>
-                <br>
-                <li>Imunodeficiências: O plasma é usado para tratar pacientes com deficiências imunológicas primárias ou
-                    secundárias, fornecendo anticorpos e outras proteínas do sistema imunológico que ajudam a combater
-                    infecções.</li>
-                <br>
-                <li>Terapia de reposição de volume: Em situações de emergência, como choque ou perda significativa de
-                    sangue, o plasma pode ser usado para repor o volume sanguíneo e estabilizar o paciente.</li>
-            </ul>
-        </section>
-        <section id="instituicoes">
-            <h2>Instituições Especializadas</h2>
-            <br>
-            <ul>
-                <li>Hemepar (Centro de Hematologia e Hemoterapia do Paraná): O Hemepar é uma instituição pública que
-                    opera bancos de sangue e coleta doações de sangue e plasma em várias cidades do Paraná, incluindo
-                    Curitiba.Eles podem fornecer informações sobre como doar plasma e locais de doação.</li>
-                <br>
-                <li>Cruz Vermelha: A Cruz Vermelha Brasileira geralmente opera programas de doação de sangue e plasma em
-                    todo o país. Eles têm locais de doação em diversas cidades, onde é possível obter informações sobre
-                    doação de plasma.</li>
-                <br>
-                <li>Empresas Privadas de Plasma: Empresas privadas como Octapharma Plasma, CSL Plasma e Grifols têm
-                    clínicas de doação de plasma em várias cidades do Brasil. Essas empresas podem pagar aos doadores
-                    por suas doações e geralmente têm processos simplificados de doação.</li>
-            </ul>
-        </section>
-        <section id="como-e-onde">
-            <h2>Como e Onde Doar</h2>
-            <br>
-            <ul>
-                <li>Hemepar (Centro de Hematologia e Hemoterapia do Paraná)<br>
-                    Endereço: Av. Prefeito Lothário Meissner, 2300 - Jardim Botânico, Curitiba - PR, 80210-170</li>
-                <br>
-                <li>Cruz Vermelha Brasileira - Filial do Paraná<br>
-                    Endereço: R. Vicente Machado, 1697 - Batel, Curitiba - PR, 80420-011.</li>
-                <br>
-                <li>Horário de funcionamento: Das 08:30h até as 18h</li>
-                <br>
-                <li>Como agendar: Pelo site, clique no botão agendar. Informe os dados solicitados e siga o passo a
-                    passo. O agendamento é imediato</li>
-                <br>
-            </ul>
-        </section>
-        <section id="instrucoes">
-            <h2>Instruções</h2>
-            <br>
-            <ul>
-                <li>Esteja descansado e alimentado (evite alimentos gordurosos 4 horas antes)</li>
-                <br>
-                <li>Você será cadastrado no sistema, passará por triagem clínica e fará um exame de sangue rápido para
-                    garantir que não tem anemia. Se os critérios forem atendidos, você será encaminhado para a retirada
-                    de 450 ml de sangue</li>
-                <br>
-                <li>Compareça à unidade em que fez o agendamento.</li>
-            </ul>
+        <section>
+            <h1>O que envolve o processo de doação?</h1>
+            <p>O processo de doação de plasma envolve várias etapas, desde o registro inicial até a finalização e
+                recuperação do doador. Inclui registro e triagem, verificação de elegibilidade, coleta de plasma,
+                processamento e armazenamento, e finalização e recuperação do doador.</p>
+            <h1>Como se preparar adequadamente para a doação?</h1>
+            <p>Antes de doar plasma, é importante seguir algumas orientações para garantir uma doação segura e eficaz.
+                Isso pode incluir evitar alimentos gordurosos algumas horas antes da doação, garantir que você esteja
+                descansado e hidratado, e seguir quaisquer instruções específicas fornecidas pelo centro de doação.</p>
+            <h1>Quais são os critérios de elegibilidade para doar?</h1>
+            <p>Para ser elegível como doador de plasma, você deve atender a certos critérios, incluindo idade entre 18 e
+                65 anos, peso mínimo de 60 kg, boa saúde geral, histórico médico adequado e estilo de vida compatível
+                com os requisitos de segurança da doação. Além disso, você passará por testes de triagem antes de cada
+                doação para verificar sua elegibilidade.</p>
+            <h1>Quais são os benefícios da doação para os doadores e receptores?</h1>
+            <p>A doação de plasma oferece benefícios tanto para os doadores quanto para os receptores. Para os
+                receptores, o plasma é utilizado no tratamento de uma variedade de condições médicas, incluindo
+                queimaduras, distúrbios de coagulação, doenças autoimunes e imunodeficiências. Para os doadores, a
+                doação pode proporcionar verificação regular de saúde, benefícios psicológicos e, em alguns casos,
+                recompensas financeiras.</p>
+            <h1>Quem está apto a realizar a doação?</h1>
+            <p>Qualquer pessoa que atenda aos critérios de elegibilidade pode participar ativamente do processo de
+                doação de plasma. Isso inclui pessoas que estão dentro da faixa etária especificada, atendem ao peso
+                mínimo, estão em boa saúde geral e têm um histórico médico adequado e estilo de vida compatível.</p>
+            <h1>Quais são as restrições ou impedimentos para a doação?</h1>
+            <p>Existem várias restrições temporárias e permanentes que podem impedir alguém de doar plasma. Isso inclui
+                doenças recentes, procedimentos médicos recentes, vacinações recentes, doenças crônicas, uso de drogas
+                intravenosas, comportamento sexual de risco, entre outros. Viagens internacionais e uso de certos
+                medicamentos também podem ser considerados.</p>
+            <h1>Como é o processo de recuperação após a doação?</h1>
+            <p>Após a doação de plasma, é importante seguir algumas orientações para garantir uma recuperação adequada.
+                Isso pode incluir descansar, se hidratar, evitar alimentos gordurosos, e seguir quaisquer instruções
+                específicas fornecidas pelo centro de doação. O tempo de recuperação pode variar de pessoa para pessoa,
+                mas geralmente é rápido.</p>
+            <h1>Onde é possível realizar a doação?</h1>
+            <p>Você pode realizar a doação de plasma em diversas instituições, como o Hemepar (Centro de Hematologia e
+                Hemoterapia do Paraná), a Cruz Vermelha Brasileira e empresas privadas de plasma, como Octapharma
+                Plasma, CSL Plasma e Grifols. Essas instituições têm locais de doação em várias cidades, incluindo
+                Curitiba, onde é possível obter informações sobre doação de plasma e agendar uma doação.</p>
+
         </section>
     </main>
 </body>

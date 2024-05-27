@@ -1,216 +1,254 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAQ - Perguntas Frequentes</title>
-    <link rel="stylesheet" href="assets/css/faq.css"/>
-    <link rel="stylesheet" href="assets/css/styles.css"/>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOAINFO - Perguntas Frequentes</title>
+  <link rel="stylesheet" href="assets/css/faq.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
+
+</head>
+
+<body>
 
   <header>
     <div class="container">
-        <h1>DOAINFO</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="medula.html">Medula óssea</a></li>
-                <li><a href="plaqueta.html">Plaquetas</a></li>
-                <li><a href="plasma.html">Plasma</a></li>
-                <li><a href="sangue.html">Sangue</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+      <h1>DOAINFO</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown">
+            <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+            <div class="dropdown-content">
+              <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+              <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+              <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+              <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+              <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+            </div>
+          </li>
+          <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+          <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
+      </ul>
+      </nav>
     </div>
-</header>
-      <h2  class="first-heading">Perguntas Frequentes</h2>
+  </header>
+  <h2 class="first-heading">Perguntas Frequentes</h2>
 
-      <div class="faq-item">
-        <div class="question">Como posso doar?
-
-        </div>
-        <div class="answer">
-          <p>
-            Para doar sangue, você precisa entrar em contato com o banco de
-            sangue mais próximo. Geralmente, você precisa atender a certos
-            requisitos de elegibilidade, como idade mínima, peso adequado e boa
-            saúde. O processo de doação é rápido e indolor. Saiba mais
-            <a href="https://hcfmb.unesp.br/hemocentro-quem-pode-doar-sangue/#:~:text=Os%20requisitos%20para%20ser%20doador,usu%C3%A1rio%20de%20drogas%3B%20n%C3%A3o%20ingerir">aqui</a>.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="faq-item">
-        <div class="question">Quem pode doar?
-        </div>
-        <div class="answer">
-        <p>
-          Os critérios de elegibilidade variam para cada tipo de doação, mas
-          geralmente incluem idade mínima, boa saúde e ausência de certas
-          condições médicas. Saiba mais
-          <a href="https://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html">aqui</a>.
-        </p>
-      </div>
-    </div>
-
-
-      <div class="faq-item">
-        <div class="question">
-            Qual é a idade mínima/máxima para ser um doador?
-        </div>
-        <div class="answer">
-          <p>A idade mínima e máxima para doação variam dependendo do tipo de doação e das regulamentações locais. Geralmente, a maioria dos centros de doação exige que os doadores tenham pelo menos 18 anos (ou 16 anos com consentimento dos pais) e não tenham ultrapassado uma certa idade (geralmente 60 a 65 anos).
-            
-          </p>
-        </div>
-      </div>
-
-
-      <div class="faq-item">
-        <div class="question">
-            Quais são os requisitos de saúde para ser um doador?
-        </div>
-        <div class="answer">
-          <p>Os requisitos para ser doador de sangue são: apresentar documento emitido por órgão oficial com foto, como RG ou CNH; ter boa saúde; pesar mais que 50kg; não estar em jejum; dormir ao menos 6 horas antes da doação; não estar com doenças infecciosas; não ter vida sexual promíscua; não ser usuário de drogas; não ingerir bebida alcoólica 12 horas antes da doação e ter entre 18 anos completos e 69 anos, 11 meses e 29 dias, desde que a primeira doação tenha ocorrido até os 60 anos.</p>            
-            <a href="link_para_pagina_de_doacao_de_medula"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-            Posso doar se estiver tomando medicamentos?
-        </div>
-        <div class="answer">
-        <p>Isso depende do tipo de medicamento e da razão pela qual está sendo tomado. Alguns medicamentos podem ser aceitáveis, enquanto outros podem ser motivo de adiamento temporário da doação. É importante informar o pessoal do centro de doação sobre todos os medicamentos que você está tomando antes de doar. Saiba mais
- 
-            <a href="https://saude.se.gov.br/uso-de-algumas-classes-de-medicamentos-impede-a-doacao-de-sangue/#:~:text=O%20uso%20de%20medicamentos%20anti,per%C3%ADodo%20ou%20at%C3%A9%20mesmo%20definitivamente.">aqui</a>.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="faq-item">
-        <div class="question">
-          Quais são os requisitos básicos para doar sangue?
-        </div>
-        <div class="answer">
-          <p>
-            Quais são os requisitos básicos para doar sangue?
-Os requisitos básicos para doar sangue geralmente incluem idade entre 18 e 65 anos, peso mínimo de 50 kg, boa saúde geral, pressão arterial dentro do intervalo saudável, níveis adequados de hemoglobina, estilo de vida sem comportamentos de risco, e ausência de certas condições médicas pré-existentes, como hepatite ou HIV/AIDS. Estes critérios visam garantir a segurança tanto do doador quanto do receptor do sangue.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-
-      <div class="faq-item">
-        <div class="question">
-          Como é o processo de doação de sangue?
-        </div>
-        <div class="answer">
-          <p>
-            O processo de doação de sangue envolve registro, triagem pré-doação para verificar elegibilidade, entrevista confidencial sobre histórico médico e estilo de vida, seguida pela coleta de sangue. Após a doação, o doador descansa brevemente, recebe um lanche e água, e é monitorado por profissionais de saúde. O sangue coletado é testado, processado e distribuído para pacientes necessitados.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Quanto tempo leva para doar sangue?
-        </div>
-        <div class="answer">
-          <p>
-            A doação de sangue geralmente leva cerca de 10 a 15 minutos, mas todo o processo, incluindo registro, triagem, doação e breve período de descanso pós-doação, pode durar de 30 a 60 minutos.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Quanto de sangue eu posso doar em uma única doação?
-        </div>
-        <div class="answer">
-          <p>
-            Em uma única doação de sangue, geralmente é coletado aproximadamente 450 ml a 500 ml de sangue, o que equivale a cerca de uma unidade de sangue. Este é o volume padrão de sangue que é retirado de um doador durante uma sessão de doação.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Quais são os cuidados que devo ter depois de doar sangue?
-        </div>
-        <div class="answer">
-          <p>
-            Após doar sangue, é essencial hidratar-se, evitar atividades extenuantes, descansar, manter uma alimentação saudável, evitar fumar e álcool, além de estar atento a sinais de complicações. Esses cuidados garantem uma recuperação adequada e minimizam o risco de complicações pós-doação.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Posso doar sangue se estiver doente ou tomando remédios?
-        </div>
-        <div class="answer">
-          <p>
-            Não é recomendado doar sangue se estiver doente, inclusive com resfriado comum, para evitar a transmissão de doenças. Se estiver tomando medicamentos, informe ao banco de sangue, pois pode haver restrições, dependendo do tipo de medicamento. É essencial garantir a segurança do sangue doado e a sua própria saúde.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Existe algum risco ao doar sangue?
-        </div>
-        <div class="answer">
-          <p>
-            Doar sangue é geralmente seguro, mas há alguns riscos, como tontura, dor no local da punção e reações alérgicas. Os equipamentos são esterilizados para minimizar o risco de infecção. Profissionais de saúde fazem triagem para identificar doadores em risco e garantir a segurança do processo.
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="question">
-          Quais são os benefícios de doar sangue?
-        </div>
-        <div class="answer">
-          <p>
-            Doar sangue pode salvar vidas, melhorar a saúde cardiovascular, estimular a produção de células sanguíneas, oferecer testes de saúde gratuitos e proporcionar uma sensação de contribuição para a comunidade, alem de pagar meia em varios estabelecimentos como teatros e cinemas
-          </p>            
-            <a href="link_para_pagina"></a>
-          </>
-        </div>
-      </div>
+  <div class="faq-item">
+    <div class="question" tabindex="0">Como posso doar?
 
     </div>
-    <script>
-      const questions = document.querySelectorAll(".question");
-      questions.forEach((question) => {
-        question.addEventListener("click", () => {
-          const answer = question.nextElementSibling;
-          answer.style.display =
-            answer.style.display === "block" ? "none" : "block";
-        });
+    <div class="answer" tabindex="0">
+      <p>
+        Para doar sangue, você precisa entrar em contato com o banco de
+        sangue mais próximo. Geralmente, você precisa atender a certos
+        requisitos de elegibilidade, como idade mínima, peso adequado e boa
+        saúde. O processo de doação é rápido e indolor. Saiba mais
+        <a href="https://hcfmb.unesp.br/hemocentro-quem-pode-doar-sangue/#:~:text=Os%20requisitos%20para%20ser%20doador,usu%C3%A1rio%20de%20drogas%3B%20n%C3%A3o%20ingerir"
+          target="_blank" rel="noopener noreferrer">aqui</a>.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">Quem pode doar?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Os critérios de elegibilidade variam para cada tipo de doação, mas
+        geralmente incluem idade mínima, boa saúde e ausência de certas
+        condições médicas. Saiba mais
+        <a href="https://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html" target="_blank"
+          rel="noopener noreferrer">aqui</a>.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Qual é a idade mínima/máxima para ser um doador?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>A idade mínima e máxima para doação variam dependendo do tipo de doação e das regulamentações locais.
+        Geralmente, a maioria dos centros de doação exige que os doadores tenham pelo menos 18 anos (ou 16 anos com
+        consentimento dos pais) e não tenham ultrapassado uma certa idade (geralmente 60 a 65 anos).
+
+      </p>
+    </div>
+  </div>
+
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quais são os requisitos de saúde para ser um doador?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>Os requisitos para ser doador de sangue são: apresentar documento emitido por órgão oficial com foto, como RG
+        ou CNH; ter boa saúde; pesar mais que 50kg; não estar em jejum; dormir ao menos 6 horas antes da doação; não
+        estar com doenças infecciosas; não ter vida sexual promíscua; não ser usuário de drogas; não ingerir bebida
+        alcoólica 12 horas antes da doação e ter entre 18 anos completos e 69 anos, 11 meses e 29 dias, desde que a
+        primeira doação tenha ocorrido até os 60 anos.</p>
+      <a href="link_para_pagina_de_doacao_de_medula" target="_blank" rel="noopener noreferrer"></a>
+      </>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Posso doar se estiver tomando medicamentos?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>Isso depende do tipo de medicamento e da razão pela qual está sendo tomado. Alguns medicamentos podem ser
+        aceitáveis, enquanto outros podem ser motivo de adiamento temporário da doação. É importante informar o pessoal
+        do centro de doação sobre todos os medicamentos que você está tomando antes de doar. Saiba mais
+
+        <a href="https://saude.se.gov.br/uso-de-algumas-classes-de-medicamentos-impede-a-doacao-de-sangue/#:~:text=O%20uso%20de%20medicamentos%20anti,per%C3%ADodo%20ou%20at%C3%A9%20mesmo%20definitivamente."
+          target="_blank" rel="noopener noreferrer">aqui</a>.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quais são os requisitos básicos para doar sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Quais são os requisitos básicos para doar sangue?
+        Os requisitos básicos para doar sangue geralmente incluem idade entre 18 e 65 anos, peso mínimo de 50 kg, boa
+        saúde geral, pressão arterial dentro do intervalo saudável, níveis adequados de hemoglobina, estilo de vida sem
+        comportamentos de risco, e ausência de certas condições médicas pré-existentes, como hepatite ou HIV/AIDS. Estes
+        critérios visam garantir a segurança tanto do doador quanto do receptor do sangue.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Como é o processo de doação de sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        O processo de doação de sangue envolve registro, triagem pré-doação para verificar elegibilidade, entrevista
+        confidencial sobre histórico médico e estilo de vida, seguida pela coleta de sangue. Após a doação, o doador
+        descansa brevemente, recebe um lanche e água, e é monitorado por profissionais de saúde. O sangue coletado é
+        testado, processado e distribuído para pacientes necessitados.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quanto tempo leva para doar sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        A doação de sangue geralmente leva cerca de 10 a 15 minutos, mas todo o processo, incluindo registro, triagem,
+        doação e breve período de descanso pós-doação, pode durar de 30 a 60 minutos.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quanto de sangue eu posso doar em uma única doação?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Em uma única doação de sangue, geralmente é coletado aproximadamente 450 ml a 500 ml de sangue, o que equivale a
+        cerca de uma unidade de sangue. Este é o volume padrão de sangue que é retirado de um doador durante uma sessão
+        de doação.
+      </p>
+
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quais são os cuidados que devo ter depois de doar sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Após doar sangue, é essencial hidratar-se, evitar atividades extenuantes, descansar, manter uma alimentação
+        saudável, evitar fumar e álcool, além de estar atento a sinais de complicações. Esses cuidados garantem uma
+        recuperação adequada e minimizam o risco de complicações pós-doação.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Posso doar sangue se estiver doente ou tomando remédios?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Não é recomendado doar sangue se estiver doente, inclusive com resfriado comum, para evitar a transmissão de
+        doenças. Se estiver tomando medicamentos, informe ao banco de sangue, pois pode haver restrições, dependendo do
+        tipo de medicamento. É essencial garantir a segurança do sangue doado e a sua própria saúde.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Existe algum risco ao doar sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Doar sangue é geralmente seguro, mas há alguns riscos, como tontura, dor no local da punção e reações alérgicas.
+        Os equipamentos são esterilizados para minimizar o risco de infecção. Profissionais de saúde fazem triagem para
+        identificar doadores em risco e garantir a segurança do processo.
+      </p>
+
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="question" tabindex="0">
+      Quais são os benefícios de doar sangue?
+    </div>
+    <div class="answer" tabindex="0">
+      <p>
+        Doar sangue pode salvar vidas, melhorar a saúde cardiovascular, estimular a produção de células sanguíneas,
+        oferecer testes de saúde gratuitos e proporcionar uma sensação de contribuição para a comunidade, alem de pagar
+        meia em varios estabelecimentos como teatros e cinemas
+      </p>
+    </div>
+  </div>
+
+  </div>
+  <script>
+    const questions = document.querySelectorAll(".question");
+
+    questions.forEach((question) => {
+      question.addEventListener("click", toggleAnswer);
+      question.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          toggleAnswer(event);
+        }
       });
-    </script>
+    });
 
-  </body>
+    function toggleAnswer(event) {
+      const question = event.currentTarget;
+      const answer = question.nextElementSibling;
+      const isExpanded = answer.style.display === "block";
+      answer.style.display = isExpanded ? "none" : "block";
+      question.setAttribute("aria-expanded", (!isExpanded).toString());
+    }
+
+  </script>
+
+
+</body>
 
 </html>

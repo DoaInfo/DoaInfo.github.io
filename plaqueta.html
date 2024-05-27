@@ -1,75 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plaquetas</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-
+    <title>DOAINFO - Doação de Medula Óssea</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
 </head>
-<body>
 
+<body>
     <header>
         <div class="container">
             <h1>DOAINFO</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+                        <div class="dropdown-content">
+                            <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+                            <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+                            <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+                            <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+                            <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+                    <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-<main>
-    <div>
-        <div id="section">
-            <h2  class="first-heading">Procedimento de Doação de Plaquetas:</h2>
-            <br>
-            <p>A doação de plaquetas, também conhecida como aférese plaquetária, é um processo pelo qual as plaquetas são coletadas do sangue do doador e separadas dos outros componentes sanguíneos. O procedimento é semelhante à doação de sangue, mas difere na medida em que apenas as plaquetas são extraídas, enquanto o restante do sangue é devolvido ao doador. Aqui está uma visão geral do procedimento:
-            <br><br>
-            O doador é posicionado confortavelmente em uma cadeira ou maca.
-            <br>
-            Um dispositivo de aférese é conectado ao braço do doador, geralmente na veia ante cubital.
-            <br>
-            O sangue é coletado e passa por uma máquina de aférese, que separa as plaquetas e retorna os outros componentes sanguíneos ao doador.
-            <br>
-            O processo pode levar cerca de 60 a 120 minutos, dependendo da quantidade de plaquetas necessárias e da eficiência do equipamento de aférese.</p>
-        </div>
-        <div id="section">
-            <h2>Importância da Doação de Plaquetas:</h2>
-            <p>As plaquetas desempenham um papel crucial na coagulação do sangue e na prevenção de sangramentos excessivos. Pacientes com distúrbios de coagulação, como aqueles submetidos a tratamentos contra o câncer, cirurgias, traumatismos graves ou com doenças hematológicas, muitas vezes necessitam de transfusões de plaquetas para manter níveis adequados e prevenir complicações graves. Doar plaquetas é uma maneira direta e significativa de ajudar esses pacientes.</p>
-        </div>
-        <div id="section">
-            <h2>Benefícios da Doação de Plaquetas:</h2>
-            <br>
-            <ul>
-                <li>Salvar vidas: A doação de plaquetas é essencial para pacientes com distúrbios de coagulação que dependem de transfusões para sobreviver.</li>
-                <br>
-                <li>Reduzir complicações: Manter níveis adequados de plaquetas em pacientes durante tratamentos médicos reduz o risco de sangramentos e complicações associadas.</li>
-                <br>
-                <li>Sensação de realização: Muitos doadores relatam uma sensação de satisfação e realização ao ajudar diretamente pacientes em necessidade.</li>
-            </ul>
-        </div>
-        <br>
-        <div id="section">
-            <h2>Locais de Doação Disponíveis:</h2>
-            <br>
-            <p>Os locais de doação de plaquetas podem variar de acordo com a região. Geralmente, os bancos de sangue e os hospitais são os principais locais de doação. Aqui estão algumas maneiras de encontrar locais de doação de plaquetas:
-            <br><br>
-            Entre em contato com bancos de sangue locais: Eles geralmente têm informações sobre os procedimentos de doação de plaquetas e podem agendar uma sessão de doação.
-            <br>
-            Consulte sites de bancos de sangue online: Muitos bancos de sangue têm sites que fornecem informações sobre doação de plaquetas, incluindo locais de doação e requisitos.
-            <br>
-            Hospitais e centros médicos: Alguns hospitais têm programas de doação de plaquetas para atender às necessidades de seus pacientes.</p>
-        </div>
-    </div>
-</main>
+    <main>
+        <section>
+            <h1>O que envolve o processo de doação?</h1>
+            <p>
+                A doação de plaquetas, também conhecida como aférese plaquetária, é um processo pelo qual as plaquetas
+                são coletadas do sangue do doador e separadas dos outros componentes sanguíneos. O procedimento é
+                semelhante à doação de sangue, mas difere na medida em que apenas as plaquetas são extraídas, enquanto o
+                restante do sangue é devolvido ao doador.
+            </p>
+            <p>
+                O doador é posicionado confortavelmente em uma cadeira ou maca. Um dispositivo de aférese é conectado ao
+                braço do doador, geralmente na veia antecubital. O sangue é coletado e passa por uma máquina de aférese,
+                que separa as plaquetas e retorna os outros componentes sanguíneos ao doador. O processo pode levar
+                cerca de 60 a 120 minutos, dependendo da quantidade de plaquetas necessárias e da eficiência do
+                equipamento de aférese.
+            </p>
 
+            <h1>Como se preparar adequadamente para a doação?</h1>
+            <p>
+                Hidratação: Beber bastante água antes da doação. Alimentação: Comer refeições leves e saudáveis,
+                evitando alimentos gordurosos, pelo menos 24 horas antes. Descanso: Dormir bem na noite anterior.
+                Medicações: Informar sobre qualquer medicação que esteja tomando, especialmente anti-inflamatórios e
+                aspirina, que podem afetar a doação.
+            </p>
+
+            <h1>Quais são os critérios de elegibilidade para doar?</h1>
+            <p>
+                Idade: 18 a 69 anos (pode variar conforme a região). Peso: Mínimo de 50 kg. Saúde Geral: Boa saúde, sem
+                doenças infecciosas ou crônicas não controladas. Hemoglobina: Níveis adequados, verificados na triagem
+                pré-doação. Medicações: Evitar anticoagulantes, aspirina e anti-inflamatórios; geralmente, 48 horas sem
+                uso antes da doação. Comportamentos de Risco: Estilo de vida que minimize o risco de doenças
+                infecciosas. Intervalo entre Doações: 4 semanas após doação de sangue total; a cada 48 horas para
+                plaquetas, até 24 vezes por ano. Gravidez e Amamentação: Não pode doar durante a gravidez; pós-parto,
+                esperar de 6 a 12 meses. Viagens e Cirurgias: Pode haver período de espera após viagens para áreas
+                endêmicas ou cirurgias recentes.
+            </p>
+
+            <h1>Quais são os benefícios da doação para os doadores e receptores?</h1>
+            <p>
+                Salvar vidas: A doação de plaquetas é essencial para pacientes com distúrbios de coagulação que dependem
+                de transfusões para sobreviver. Reduzir complicações: Manter níveis adequados de plaquetas em pacientes
+                durante tratamentos médicos reduz o risco de sangramentos e complicações associadas. Sensação de
+                realização: Muitos doadores relatam uma sensação de satisfação e realização ao ajudar diretamente
+                pacientes em necessidade.
+            </p>
+
+            <h1>Quem está apto a realizar a doação?</h1>
+            <p>
+                Para estar apto a doar plaquetas, a pessoa deve: Idade: Ter entre 18 e 69 anos. Peso: Pesar no mínimo 50
+                kg. Saúde: Estar em boas condições de saúde, sem doenças infecciosas ou crônicas não controladas.
+                Hemoglobina: Ter níveis adequados de hemoglobina. Medicações: Evitar anticoagulantes, aspirina e
+                anti-inflamatórios (48 horas sem uso antes da doação). Estilo de Vida: Praticar comportamentos de baixo
+                risco para doenças infecciosas. Intervalo entre Doações: Esperar 4 semanas após doação de sangue total;
+                pode doar plaquetas a cada 48 horas, até 24 vezes por ano. Gravidez: Não pode doar durante a gravidez e
+                deve esperar de 6 a 12 meses após o parto. Viagens/Cirurgias: Pode haver períodos de espera após viagens
+                a áreas endêmicas ou cirurgias recentes. Triagem: Passar por um questionário e exame físico durante a
+                triagem pré-doação.
+            </p>
+
+            <h1>Quais são as restrições ou impedimentos para a doação?</h1>
+            <p>
+                As principais restrições ou impedimentos para a doação de plaquetas incluem:
+            </p>
+            <p>
+                Restrições Médicas: Doenças Infecciosas: HIV/AIDS, hepatites B e C, doença de Chagas, sífilis,
+                tuberculose ativa. Condições Crônicas Não Controladas: Diabetes e hipertensão não controladas, problemas
+                cardíacos graves. Doenças Recentes: Resfriado, gripe, febre, infecções recentes, doenças autoimunes
+                ativas. Cirurgias Recentes: Grandes cirurgias podem requerer um período de espera.
+            </p>
+            <p>
+                Estilo de Vida: Comportamentos de Risco: Uso de drogas injetáveis, práticas sexuais de risco.
+                Medicações: Uso recente de anticoagulantes, aspirina e anti-inflamatórios (geralmente, 48 horas de
+                intervalo).
+            </p>
+            <p>
+                Restrições Temporárias: Viagens Recentes: Áreas endêmicas de doenças como malária e febre amarela.
+                Gravidez e Pós-Parto: Não pode doar durante a gravidez; esperar de 6 a 12 meses após o parto. Vacinas:
+                Algumas vacinas recentes podem impor um período de espera.
+            </p>
+            <p>
+                Outras Considerações: Transfusões e Transplantes: Receber transfusão de sangue ou transplante de órgãos
+                pode exigir espera. Exames e Procedimentos Médicos: Algumas intervenções médicas podem resultar em
+                restrições temporárias.
+            </p>
+
+            <h1>Como é o processo de recuperação após a doação?</h1>
+            <p>
+                Imediatamente Após: Descanse por 15-20 minutos. Beba líquidos e coma um lanche leve. Primeiras 24 Horas:
+                Continue bebendo bastante líquido. Evite atividades físicas intensas. Fique atento a sintomas como
+                tontura ou fraqueza. Alimentação: Coma refeições balanceadas e ricas em ferro. Evite álcool nas
+                primeiras 24 horas. Cuidados com o Local da Punção: Mantenha o curativo por algumas horas. Se houver
+                sangramento, aplique pressão e eleve o braço. Sintomas Possíveis: Leve tontura ou fadiga. Pequenos
+                hematomas no local da punção. Ajuda Médica: Procure atendimento se os sintomas persistirem ou forem
+                severos.
+            </p>
+
+            <h1>Onde é possível realizar a doação?</h1>
+            <p>
+                Em Curitiba, você pode realizar a doação de plaquetas em diversos hemocentros e instituições
+                especializadas. Aqui estão algumas opções:
+            <p>
+            <p>
+                Hemepar (Centro de Hematologia e Hemoterapia do Paraná)
+                <br>Endereço: Travessa João Prosdócimo, 145 - Alto da XV, Curitiba - PR
+                <br>Telefone: (41) 3281-4000
+                <br>Website: <a href="https://www.hemepar.pr.gov.br" target="_blank">Hemepar</a>
+            </p>
+            <p>
+                Hospital de Clínicas da UFPR
+                <br>Endereço: Rua General Carneiro, 181 - Alto da Glória, Curitiba - PR
+                <br>Telefone: (41) 3360-1875
+                <br>Website: <a href="https://www.hc.ufpr.br" target="_blank">HC UFPR</a>
+            </p>
+            <p>
+                Santa Casa de Misericórdia de Curitiba
+                <br>Endereço: Praça Rui Barbosa, 694 - Centro, Curitiba - PR
+                <br>Telefone: (41) 3322-9652
+                <br>Website: <a href="https://www.santacasacuritiba.com.br" target="_blank">Santa Casa Curitiba</a>
+            </p>
+            <p>
+                Hospital Erasto Gaertner
+                <br>Endereço: Rua Dr. Ovande do Amaral, 201 - Jardim das Américas, Curitiba - PR
+                <br>Telefone: (41) 3361-5000
+                <br>Website: <a href="https://www.erastogaertner.com.br" target="_blank">Erasto Gaertner</a>
+            </p>
+            </p>
+            </p>
+
+        </section>
+    </main>
 </body>
+
 </html>

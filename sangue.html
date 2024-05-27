@@ -1,133 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doação de Sangue</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/sangue.css">
+    <title>DOAINFO - Doação de Medula Óssea</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
 </head>
-<body>
 
+<body>
     <header>
         <div class="container">
             <h1>DOAINFO</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+                        <div class="dropdown-content">
+                            <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+                            <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+                            <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+                            <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+                            <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+                    <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
- 
 
     <main>
-        <section class="doacao-sangue" id="doacao">
-            <div class="conteudo">
-                <h2 class="first-heading">Doação de Sangue</h2><br>
-                <p>A doação de sangue é um ato voluntário que pode salvar vidas. Se você está interessado em doar sangue, aqui estão algumas informações importantes:</p>
-              
-                <h2>Processo de Doação</h2>
-                <p>O processo de doação de sangue geralmente envolve o seguinte:</p>
-                <ul>
-                    <li>Registro: Você precisará fornecer informações básicas e apresentar um documento de identificação.</li><br>
-                    <li>Triagem: Serão feitas algumas perguntas sobre sua saúde e histórico médico para garantir que a doação seja segura para você e para o receptor.</li><br>
-                    <li>Doação: O sangue será coletado por meio de uma punção venosa em um dos seus braços.</li><br>
-                    <li>Descanso e Lanche: Após a doação, você será orientado a descansar por alguns minutos e receberá um lanche para repor suas energias.</li><br>
-                </ul>
-        
-                <h2>Procedimentos Necessários</h2><br>
-                <p>Antes de doar sangue, é importante seguir algumas recomendações:</p>
-                <ul>
-                    <li>Estar em boa saúde</li><br>
-                    <li>Pesar mais de 50kg</li><br>
-                    <li>Não estar em jejum</li><br>
-                    <li>Ter entre 18 e 69 anos (alguns locais podem ter requisitos diferentes)</li><br>
-                    <li>Levar um documento de identificação com foto</li><br>
-                </ul>
-                <p>Lembre-se sempre de seguir as instruções dos profissionais de saúde durante o processo de doação de sangue.</p>
-                <h2>Locais de Coleta</h2><br>
-                <details>
-                    <summary>Clique para ver os locais de coleta em Curitiba</summary>
-                    <div class="locais-coleta">
-                        <div class="local-coleta">
-                            <h3><a href="https://www.saude.pr.gov.br/servicos/Saude/Doacoes/Agendar-doacao-de-sangue-no-Hemepar-xv3Kqxo1" target="_blank" color="black">Centro de Hematologia e Hemoterapia do Paraná (Hemepar)</a></h3>
-                            <p>
-                                De segunda a sexta-feira, das 7h30 às 18h30, e aos sábados, das 8h às 18h.<br>
-                                Endereço: Travessa João Prosdócimo, 145, Alto da XV.<br>
-                                (41) 3281-4000
-                            </p>
-                        </div>
-                        <div class="local-coleta">
-                            <h3><a href="https://www.saude.pr.gov.br/Endereco/Biobanco-Curitiba" target="_blank">Biobanco do Hospital de Clínicas da UFPR (HC)</a></h3>
-                            <p>
-                                De segunda a sexta-feira, das 8h30 às 16h30.<br>
-                                Endereço: Avenida Agostinho Leão Junior, 108, Alto da Glória.<br>
-                                (41) 3360-1875
-                            </p>
-                        </div>
-                        <div class="local-coleta">
-                            <h3><a href="https://hemobanco.com.br/site/agendamento/" target="_blank">Hemobanco</a></h3>
-                            <p>
-                                De segunda-feira a sábado, das 8h às 13h30.<br>
-                                Endereço: Rua Capitão Souza Franco, 290, Batel.<br>
-                                (41) 3521-4752.
-                            </p>
-                        </div>
-                        <div class="local-coleta">
-                            <h3><a href="https://www.erastogaertner.com.br/pagina/banco-de-sangue/" target="_blank">Hospital Erasto Gaertner</a></h3>
-                            <p>
-                                De segunda a sexta-feira, das 10h às 17h.<br>
-                                Endereço: Rua Doutor Ovande do Amaral, 201, Jardim das Américas.<br>
-                                (41) 3361-5000 
-                            </p>
-                        </div>
-                        <div class="local-coleta">
-                            <h3><a href="https://www.hnsg.org.br/servicos/banco-de-sangue/" target="_blank">Hospital Nossa Senhora das Graças</a></h3>
-                            <p>
-                                De segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 12h.<br>
-                                Endereço: Rua Alcides Munhoz, 433, Mercês.<br>
-                                (41) 3240-6578
-                            </p>
-                        </div>
-                        <div class="local-coleta">
-                            <h3><a href="https://santacasacuritiba.com.br/como-ajudar/doar-e-um-ato-de-amor/" target="_blank">Santa Casa de Curitiba</a></h3>
-                            <p>
-                                De segunda a sexta-feira, das 8h às 11h30 e das 14h às 17h30. Aos sábados, das 8h às 11h30.<br>
-                                Endereço: Praça Rui Barbosa, 694, Centro.<br>
-                                (41) 3320-3500
-                            </p>
-                        </div>
-                    </div>
-                </details>
-                
-                <h2>Benefícios da Doação de Sangue</h2><br>
-                <ul>
-                    <li>
-                        <strong>Salva vidas:</strong> Sua doação pode fazer a diferença entre a vida e a morte para alguém que precisa de transfusão de sangue.
-                    </li><br>
-                    <li>
-                        <strong>Melhora a saúde cardiovascular:</strong> Estudos mostram que a doação de sangue regular pode reduzir o risco de doenças cardíacas.
-                    </li><br>
-                    <li>
-                        <strong>Estimula a produção de células sanguíneas:</strong> Após a doação, o corpo precisa substituir as células sanguíneas perdidas, o que pode ajudar a manter a saúde do sangue.
-                    </li><br>
-                    <li>
-                        <strong>Benefícios psicológicos:</strong> Muitas pessoas se sentem bem consigo mesmas ao saber que estão ajudando os outros através da doação de sangue.
-                    </li><br>
-                    <li>
-                        <strong>Gratificação pessoal:</strong> Saber que você fez algo positivo e significativo para a comunidade pode proporcionar uma sensação de realização e satisfação pessoal.
-                    </li>
-                </ul>
-            </div>
+        <section>
+            <h1>O que envolve o processo de doação?</h1>
+            <p>O processo de doação de sangue envolve várias etapas e procedimentos, incluindo a identificação e a
+                criação do registro, a triagem clínica, a coleta de sangue e a observação após a doação. O processo
+                completo, incluindo a triagem e o descanso após a doação, dura em média 40 minutos. O processo de doação
+                de sangue exige muitos cuidados, procedimentos e exames que seguem os mesmos padrões para todas as
+                pessoas. As etapas da doação de sangue incluem a identificação e a criação do registro, a triagem
+                clínica, a coleta de sangue e a observação após a doação.</p>
+            <h1>Como se preparar adequadamente para a doação?</h1>
+            <p>Para se preparar adequadamente para a doação de sangue, é importante estar em boas condições de saúde,
+                ter entre 16 e 69 anos completos (menores de idade com autorização e presença do responsável legal),
+                pesar no mínimo 51 Kg na balança do HEMEPAR, estar descansado, alimentado e hidratado (evitar
+                alimentação gordurosa nas 4 horas que antecedem a doação) e apresentar documento oficial com foto (
+                Carteira de Identidade, Carteira do Conselho Profissional, Carteira de Trabalho, Passaporte ou Carteira
+                Nacional de Habilitação).</p>
+            <h1>Quais são os critérios de elegibilidade para doar?</h1>
+            <p>Os critérios de elegibilidade para doar sangue incluem estar em boas condições de saúde, ter entre 16 e
+                69 anos completos (menores de idade com autorização e presença do responsável legal), pesar no mínimo 51
+                Kg na balança do HEMEPAR, estar descansado, alimentado e hidratado (evitar alimentação gordurosa nas 4
+                horas que antecedem a doação) e apresentar documento oficial com foto ( Carteira de Identidade, Carteira
+                do Conselho Profissional, Carteira de Trabalho, Passaporte ou Carteira Nacional de Habilitação).</p>
+            <h1>Quais são os benefícios da doação para os doadores e receptores?</h1>
+            <p>Os benefícios da doação de sangue para os doadores incluem ajudar a salvar vidas, ser bom para o sistema
+                cardiovascular e reduzir os riscos de câncer, receber uma análise gratuita da sua amostra, que pode ser
+                utilizada na próxima consulta médica, e fazer bem para a saúde do doador ao diminuir a pressão arterial,
+                podendo melhorar inclusive os níveis de colesterol. Os benefícios da doação de sangue para os receptores
+                incluem ajudar a salvar vidas, tratar pacientes em emergências médicas, cirurgias, tratamentos de
+                câncer, doenças crônicas e muitas outras condições de saúde, tratar pacientes com anemia causada por
+                deficiências de ferro, doença renal crônica, doença falciforme e outras condições, e suportar vítimas de
+                acidentes, traumas e queimaduras graves.</p>
+            <h1>Quem está apto a realizar a doação?</h1>
+            <p>Pessoas que estão em boas condições de saúde, têm entre 16 e 69 anos completos (menores de idade com
+                autorização e presença do responsável legal), pesam no mínimo 51 Kg na balança do HEMEPAR, estão
+                descansadas, alimentadas e hidratadas (evitando alimentação gordurosa nas 4 horas que antecedem a
+                doação) e apresentam documento oficial com foto ( Carteira de Identidade, Carteira do Conselho
+                Profissional, Carteira de Trabalho, Passaporte ou Carteira Nacional de Habilitação) estão aptas a
+                realizar a doação de sangue.</p>
+
+            <h1>Quais são as restrições ou impedimentos para a doação?</h1>
+            <p>Existem várias condições ou circunstâncias que podem impedir temporária ou permanentemente a doação de
+                sangue. Algumas das principais restrições incluem:
+                Idade: Geralmente, os doadores precisam ter entre 16 e 69 anos, embora a idade possa variar de
+                acordo com o país e as regulamentações locais.</p>
+            <p>Peso: Os doadores geralmente devem pesar pelo menos 50 kg.</p>
+            <p>Saúde Geral: Os doadores devem estar em boa saúde geral e não apresentar sintomas de doenças
+                infecciosas.</p>
+            <p>Doenças Recentes: Infecções virais, como resfriados, gripes e outras doenças, podem desquapficar
+                temporariamente um doador.</p>
+            <p>Procedimentos Médicos Recentes: Cirurgias recentes ou procedimentos invasivos podem exigir uma
+                espera antes da doação.</p>
+            <p>Gravidez ou Amamentação: Mulheres grávidas ou amamentando não podem doar sangue temporariamente.
+            </p>
+            <p>Doenças Crônicas: Certas condições médicas, como HIV/AIDS, hepatite B ou C, e certos tipos de
+                câncer, podem desquapficar permanentemente um indivíduo.</p>
+            <p>Uso de Drogas Injetáveis: O uso de drogas injetáveis ilícitas é um critério de exclusão permanente
+                devido ao risco de transmissão de infecções pelo sangue.</p>
+            <p>Viagens Internacionais: Viagens recentes para áreas endêmicas de doenças específicas podem exigir
+                uma espera antes da doação.</p>
+            <p>Tatuagens e Piercings: Em alguns lugares, a presença de tatuagens ou piercings recentes pode
+                resultar em uma espera antes da doação.</p>
+            <h1>Como é o processo de recuperação após a doação?</h1>
+            <p>Após a doação de sangue, é importante seguir algumas orientações para garantir uma recuperação adequada.
+                É recomendado evitar dobrar o braço por aproximadamente 30 minutos, evitar carregar peso com o braço em
+                que foi feita a doação por 4 horas, evitar esforços físicos exagerados no dia da doação, aumentar a
+                ingestão de líquidos (água, chá, sucos), não fumar por cerca de 2 horas, evitar bebidas alcoólicas por
+                12 horas e manter o curativo no local da punção por pelo menos 4 horas.</p>
+            <h1>Onde é possível realizar a doação?</h1>
+            <p>É possível realizar a doação de sangue em vários locais, como o Hemocentro Coordenador (HCC) - HEMEPAR
+                Curitiba, o Hemonúcleo (HN) - Biobanco do Hospital de Clínicas da UFPR, o Hemobanco e outros locais
+                específicos em cada cidade. É importante verificar as informações de contato e horários de funcionamento
+                de cada local antes de realizar a doação.</p>
+
         </section>
     </main>
-
 </body>
+
 </html>

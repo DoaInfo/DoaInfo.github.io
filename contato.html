@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>DOAINFO - Contato</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
+
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -14,35 +19,44 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+                        <div class="dropdown-content">
+                            <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+                            <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+                            <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+                            <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+                            <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+                    <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-<main>
-    <h2>INFORMAÇÕES E CONTATO</h1>
+    <main>
+        <h2>INFORMAÇÕES E CONTATO</h2>
 
-    <div>
-        <p>Somos alunos da Universidade Positivo, Unidade Osório e desenvolvemos este site afim de facilitar a centralização das informações a cerca das doações de Medula Óssea,<br> Sangue, Plaquetas, entre outros componentes.
-            Abaixo disponibilizamos os nossos meios de contato. Fique a vontade para nos contatar e sanar suas dúvidas!
-        </p>
-    </div>
-    
-</main>
-    
-<footer>
-    <div>
-        <p>Email: exemplo@email.com</p>
-    </div>
-        <div>
-            <p>Telefone: (41) 98433-4912  Ana Victória Freitas</p>
+        <div class="content">
+            <div class="paragraphs">
+                <p>Nosso site foi criado com o objetivo de centralizar e facilitar o acesso às informações sobre doações
+                    de Medula Óssea, Sangue, Plaquetas e outros componentes essenciais. Estamos aqui para fornecer
+                    orientações e esclarecimentos sobre como você pode contribuir para salvar vidas.</p>
+                <p>Além disso, estamos à disposição para responder suas dúvidas e fornecer mais detalhes sobre o
+                    processo de doação. Não hesite em entrar em contato conosco. Estamos aqui para ajudar!</p>
+            </div>
         </div>
-    </footer>
+        <hr class="line">
+        <p>Entre em contato:</p>
+        <div class="social-buttons">
+            <a href="https://instagram.com/doainfo" class="instagram" target="_blank">Instagram</a>
+        </div>
+        <div class="social-buttons">
+            <a href="mailto:doainfoup@gmail.com" class="instagram">Email</a>
+        </div>
+    </main>
 </body>
+
 </html>

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medula Ossea</title>
+    <title>DOAINFO - Doação de Medula Óssea</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
-
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -14,114 +17,91 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+                        <div class="dropdown-content">
+                            <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+                            <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+                            <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+                            <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+                            <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+                        </div>
+                    </li>
+                    <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+                    <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-
     <main>
         <section>
-            <div>
-                <h2 class="first-heading">
-                    Como Fazer a Doação?
-                </h2><br>
-                    <p>
-                        O processo de doação de Medula Óssea pode ser feito da seguinte forma:
-                    </p>
-    
-                    <ol type="I">
-                        <li>
-                            <b>Cadastro no REDOME</b> (Registro Nacional de Doadores de Medula Óssea)
-                                <p>
-                                    Preenchimento de formulário e coleta de uma pequena amostra de sangue para análise de compatibilidade.
-                                </p>
-                        </li>
-                        <li>
-                            <b>Processo de Doação</b>
-                                <p>
-                                    A maioria das doações de medula óssea é feita por meio de doação de sangue periférico, semelhante à doação de sangue comum. Em alguns casos específicos, pode ser necessária a doação direta de medula óssea, que é realizada sob anestesia geral.
-                                </p>
-                        </li>
-                    </ol>
-    
-                <h2 class="subtitulo">
-                    Beneficios de Doar Medula Óssea
-                </h2><br>
-                    <p>
-                        Existem muitos beneficios para o doador de Medula Óssea, alguns deles são:
-                    </p>
-                    <ol type="I">
-                        <li>
-                            <b>Salvar vidas</b>
-                                <p>
-                                    A doação de medula óssea pode salvar a vida de pacientes com doenças como leucemia, linfoma e anemia aplástica.
-                                </p>
-                        </li>
-                        <li>
-                            <b>Solidariedade e Gratificação Pessoal</b>
-                                <p>
-                                    Ao doar medula óssea, você está ajudando alguém em uma situação de extrema necessidade, o que traz uma grande sensação de solidariedade e gratificação pessoal.
-                                </p>
-                        </li>
-                    </ol>
-    
-                <h2 class="subtitulo">
-                    Pré-Requisitos para Doar Medula Óssea:
-                </h2><br>
-                    <p>
-                        Nem todos podem doar Medula Óssea, existem alguns pré-requisitos que devem ser atendidos.
-                    </p>
-                    <ol type="I">
-                        <li>
-                            <b>Idade</b>
-                                <p>
-                                    Geralmente, é necessário ter entre 18 e 55 anos para se cadastrar como doador de medula óssea.
-                                </p>
-                        </li>
-                        <li>
-                            <b>Boa Saúde</b>
-                                <p>
-                                    Os doadores devem estar em boa saúde geral e não devem ter doenças graves ou condições médicas que possam impedir a doação.
-                                </p>
-                        </li>
-                        <li>
-                            <b>Consenso para Doação</b>
-                                <p>
-                                    Os doadores devem concordar em doar para qualquer paciente compatível que necessite de transplante de medula óssea, independentemente da sua localização.
-                                </p>
-                        </li>
-                    </ol>
-
-                    <h2 class="subtitulo">
-                        Locais Onde Doar
-                    </h2><br>
-                    <br>
-                        <p>
-                            Alguns locais em Curitiba onde você pode fazer a doação são:
-                        </p>
-                        <ol type="I">
-                            <li>
-                                <b>Hospital Erasto Gaertner</b>
-                                    <p>
-                                        Endereço: Rua Dr. Ovande do Amaral, Jardim das Américas, Curitiba - PR.
-                                    </p>
-                            </li>
-                            <li>
-                                <b>Hemepar</b>
-                                    <p>
-                                        Endereço: Travessa João Prosdócimo, Alto da XV, Curitiba - PR.
-                                    </p>
-                            </li>
-                        </ol>
-            </div>
+            <h1>O que envolve o processo de doação?</h1>
+            <p>
+                O processo de doação começa com a inscrição no REDOME, onde você pode se cadastrar online ou em um
+                hemocentro credenciado e fazer um exame de sangue para tipagem HLA. Em seguida, há uma avaliação médica
+                que inclui exames físicos, laboratoriais e de imagem para verificar sua saúde, além do esclarecimento de
+                dúvidas com a equipe médica. Dependendo da sua situação, você pode optar por dois métodos de doação: a
+                aférese, que envolve a retirada de sangue por cateter venoso, separação das células-tronco e retorno do
+                sangue (um procedimento que leva de 4 a 6 horas e usa anestesia local), ou a punção aspirativa de crista
+                ilíaca, que coleta medula óssea da bacia ilíaca com uma agulha sob anestesia geral (um procedimento de
+                cerca de 1 hora). A coleta das células-tronco hematopoiéticas é agendada pela equipe médica, que
+                fornecerá todas as instruções necessárias para a preparação e a realização do procedimento.
+            </p>
+            <h1>Como se preparar adequadamente para a doação?</h1>
+            <p>
+                Para se preparar adequadamente para a doação, é importante ter uma boa noite de sono e fazer uma
+                refeição leve antes de ir ao hemocentro. Beba bastante água, use roupas confortáveis e fáceis de
+                remover, e leve seus documentos pessoais, incluindo RG e cartão do SUS. Informe a equipe médica sobre
+                qualquer medicamento que você esteja tomando para garantir que nada interfira no processo de doação.
+            </p>
+            <h1>Quais são os critérios de elegibilidade para doar?</h1>
+            <p>
+                Para se cadastrar como doador de medula óssea, geralmente é necessário ter entre 18 e 55 anos, estar em
+                boa saúde geral e não ter doenças graves ou condições médicas que possam impedir a doação. Além disso, é
+                essencial que os doadores concordem em doar para qualquer paciente compatível que necessite de
+                transplante de medula óssea, independentemente da localização.
+            </p>
+            <h1>Quais são os benefícios da doação para os doadores e receptores?</h1>
+            <p>
+                Para os doadores, a doação de medula óssea oferece a oportunidade de salvar vidas, proporcionando uma
+                sensação de realização pessoal, melhora da autoestima e promoção da saúde. Além disso, há benefícios
+                sociais e uma maior conscientização sobre doenças do sangue. Para os receptores, a doação oferece uma
+                chance de cura, melhora da qualidade de vida, redução do sofrimento e uma nova esperança.
+            </p>
+            <h1>Quem está apto a realizar a doação?</h1>
+            <p>
+                Para ser um doador apto, é necessário ter entre 18 e 55 anos, estar em boa saúde geral e não ter doenças
+                graves ou condições médicas que possam impedir a doação. O doador também deve estar disposto a doar para
+                qualquer paciente compatível que precise de um transplante de medula óssea.
+            </p>
+            <h1>Quais são as restrições ou impedimentos para a doação?</h1>
+            <p>
+                Existem algumas restrições que podem impedir a doação de medula óssea. A idade deve estar entre 18 e 50
+                anos. Doenças crônicas, câncer recente, cirurgias recentes, gravidez, amamentação, transtornos
+                psiquiátricos graves e uso de drogas ilícitas são impedimentos comuns. Tatuagens e piercings recentes
+                podem impedir a doação devido ao risco de infecção, e há um período de espera após algumas vacinas. O
+                peso muito baixo ou muito alto também pode tornar alguém inelegível para a doação.
+            </p>
+            <h1>Como é o processo de recuperação após a doação?</h1>
+            <p>
+                Após a doação, é importante descansar bastante nos primeiros dias, beber muita água e se alimentar de
+                forma saudável. Atividades físicas intensas devem ser evitadas por pelo menos uma semana. Além disso, é
+                crucial monitorar sua saúde, prestando atenção a sintomas como dor, febre ou calafrios, e entrar em
+                contato com a equipe médica do hemocentro se sentir qualquer desconforto. A equipe médica do hemocentro
+                acompanhará sua recuperação, oferecendo instruções adicionais e esclarecendo dúvidas durante esse
+                período.
+            </p>
+            <h1>Onde é possível realizar a doação?</h1>
+            <p>
+                Você pode se cadastrar e realizar a doação de medula óssea no REDOME (Registro Brasileiro de Doadores
+                Voluntários de Medula Óssea) ou utilizar o aplicativo REDOME. O INCA (Instituto Nacional de Câncer) e a
+                Ameo (Associação Brasileira de Doadores de Medula Óssea) também são opções viáveis. Além disso, é
+                possível entrar em contato diretamente com o hemocentro de sua região para obter mais informações sobre
+                o processo de doação.
+            </p>
         </section>
     </main>
 </body>
+
 </html>

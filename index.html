@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/styles.css"> 
-    <link rel="stylesheet" href="/assets/css/index.css"> 
-
-
-    <title>DoaInfo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/menu.css" />
+  <script src="assets/js/main.js" defer></script>
+  <link rel="icon" href="assets/img/doainfo.png" type="image/x-icon" />
+  <title>DOAINFO - Início</title>
 </head>
 <body>
-    
-    <header>
-        <div class="container">
-            <h1>DOAINFO</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="medula.html">Medula óssea</a></li>
-                    <li><a href="plaqueta.html">Plaquetas</a></li>
-                    <li><a href="plasma.html">Plasma</a></li>
-                    <li><a href="sangue.html">Sangue</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
+  <header>
+    <div class="container">
+      <h1 class="primeiroH">DOAINFO</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown">
+            <a href="#" tabindex="0" onkeydown="toggleDropdown(event)"> Doações <span>&#9662;</span></a>
+            <div class="dropdown-content">
+              <a href="medula.html" target="_self" rel="noopener noreferrer">Medula óssea</a>
+              <a href="plaqueta.html" target="_self" rel="noopener noreferrer">Plaquetas</a>
+              <a href="plasma.html" target="_self" rel="noopener noreferrer">Plasma</a>
+              <a href="sangue.html" target="_self" rel="noopener noreferrer">Sangue</a>
+              <a href="faq.html" target="_self" rel="noopener noreferrer">Perguntas Frequentes</a>
+            </div>
+          </li>
+          <li><a href="contato.html" target="_self" rel="noopener noreferrer">Contato</a></li>
+          <li><a href="doacao.html" target="_self" rel="noopener noreferrer">Nos Apoie!</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="containerContent">
+      <div class="containerimg">
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="slide">
+              <img src="assets/img/doa2.jpg" alt="Doação de Sangue">
+            </div>
+            <div class="slide">
+              <img src="assets/img/doa1.jpg" alt="Doação de Plaquetas">
+            </div>
+            <div class="slide">
+              <img src="assets/img/doa3.jpg" alt="Doação de Plasma">
+            </div>
+            <div class="slide">
+              <img src="assets/img/doa4.jpg" alt="Doação de Plasma">
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
         </div>
-    </header>
-
-    <section>
-        <div id="fundoD"><img src="/assets/img/direita.png" alt=""></div> 
-        
-        <main>
-            <h2 class="first-heading">Doação de sangue</h2>
-            <br>
-            <p>A doação de sangue é um ato de generosidade que salva vidas. Cada doação pode representar a diferença entre a vida e a morte para alguém em necessidade. É um gesto simples, mas de uma importância imensurável.</p>
-            <p>Imagine o impacto positivo que uma bolsa de sangue pode ter na vida de alguém que passa por uma cirurgia de emergência, uma mulher em trabalho de parto complicado, uma criança com anemia ou um paciente com câncer. É a essência da solidariedade humana se manifestando em um ato tão vital.</p>
-            <P>Além de ser fundamental em situações de urgência, a doação de sangue também é essencial para o tratamento de diversas condições de saúde crônicas. Pacientes com doenças do sangue, como a talassemia e a hemofilia, dependem regularmente de transfusões para viver com qualidade.</P>
-            <p>Portanto, ser um doador de sangue é ser um verdadeiro herói anônimo, alguém que oferece um pouco de si para dar uma chance a quem precisa. É um gesto que não custa muito tempo, mas que pode fazer toda a diferença no mundo de alguém. Por isso, se você pode doar, considere tornar-se um doador regular e contribua para salvar vidas.</p>
-           
-        </main>
-        <div id="fundoE"><img src="/assets/img/esquerda.png" alt=""></div>
-    </section>
+      </div>
+      <main>
+        <h2 class="first-heading">Doação de sangue</h2>
+        <br />
+        <p>
+          A doação de sangue é um ato de generosidade que salva vidas. Cada
+          doação pode representar a diferença entre a vida e a morte para alguém
+          em necessidade. É um gesto simples, mas de uma importância
+          imensurável.
+        </p>
+        <p>
+          Imagine o impacto positivo que uma bolsa de sangue pode ter na vida de
+          alguém que passa por uma cirurgia de emergência, uma mulher em
+          trabalho de parto complicado, uma criança com anemia ou um paciente
+          com câncer. É a essência da solidariedade humana se manifestando em um
+          ato tão vital.
+        </p>
+        <p>
+          Além de ser fundamental em situações de urgência, a doação de sangue
+          também é essencial para o tratamento de diversas condições de saúde
+          crônicas. Pacientes com doenças do sangue, como a talassemia e a
+          hemofilia, dependem regularmente de transfusões para viver com
+          qualidade.
+        </p>
+        <p>
+          Portanto, ser um doador de sangue é ser um verdadeiro herói anônimo,
+          alguém que oferece um pouco de si para dar uma chance a quem precisa.
+          É um gesto que não custa muito tempo, mas que pode fazer toda a
+          diferença no mundo de alguém. Por isso, se você pode doar, considere
+          tornar-se um doador regular e contribua para salvar vidas.
+        </p>
+      </main>
+    </div>
+  </section>
 </body>
 </html>
